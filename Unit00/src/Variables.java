@@ -21,7 +21,7 @@ public class Variables
 		long a = 52;
 		float b = 6;
 		double c = 5;
-		char cher = "a";
+		char cher = 'n';
 		boolean yes = true;
 		String nope = "nope";
 

@@ -6,7 +6,6 @@
 //Class -
 //Lab  -
 
-import static java.lang.System.*;
 import java.util.Scanner;
 
 public class Input
@@ -41,10 +40,10 @@ public class Input
 		floatTwo = keyboard.nextFloat();
 		
 		System.out.print("Enter a short :: ");
-		shortOne = keyboard.nextshort();
+		shortOne = keyboard.nextShort();
 		
 		System.out.print("Enter a short :: ");
-		shortTwo = keyboard.nextshort();
+		shortTwo = keyboard.nextShort();
 
 
 		//add in input for all variables
