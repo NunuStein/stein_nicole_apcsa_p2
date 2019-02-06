@@ -17,14 +17,22 @@ public class Distance
 
 	public Distance()
 	{
+		
 	}
 
 	public Distance(int x1, int y1, int x2, int y2)
 	{
+		int yDistance = (y2 - y1) * (y2 - y1);
+		int xDistance = (x2 - x1) * (x2 - x1);
+		double Hypoteneuse = sqrt(xDistance + yDistance);
 	}
 
 	public void setCoordinates(int x1, int y1, int x2, int y2)
 	{
+		xOne = x1;
+		xTwo = x2;
+		yOne = y1;
+		yTwo = y2;
 	}
 
 	public void calcDistance()
@@ -38,6 +46,7 @@ public class Distance
 	
 	public void print()
 	{
+		System.out.println("Distance :: " + distance);
 	}
 	
 	//complete print or the toString

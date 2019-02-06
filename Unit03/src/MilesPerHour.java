@@ -23,18 +23,24 @@ public class MilesPerHour
 
 	public MilesPerHour(int dist, int hrs, int mins)
 	{
+		mph = dist % (hrs + mins);
 	}
 
 	public void setNums(int dist, int hrs, int mins)
 	{
+		distance = dist;
+		hours = hrs;
+		minutes = mins;
 	}
 
 	public void calcMPH()
 	{
+		MilesPerHour.MilesPerHour(distance,hours,minutes);
 	}
 
 	public void print()
 	{
+		System.out.println("MPH :: " + mph);
 	}
 	
 	//create a print or toString or both
