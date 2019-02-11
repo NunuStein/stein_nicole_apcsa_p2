@@ -7,8 +7,20 @@ import java.util.Scanner;
 
 public class AddSubMult
 {
+	//Write a program to check 2 parameters.  If a is > b, return a - b.  If b is > a, return b - a.  If a is equal to b, return a * b.
 	public static double check( double a, double b )
 	{
-		return 0;
+		if (a > b)
+		{
+			return a - b;
+		}
+		else if (b > a)
+		{
+			return b - a;
+		}
+		else
+		{
+			return a * b;
+		}
 	}
 }
